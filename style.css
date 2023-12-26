@@ -45,6 +45,12 @@
     padding-left: 20px;
     margin-bottom: 25px;
 }
+.spacing {
+    margin-right: 10px;
+}
+.clearAll{
+    text-align: center;
+}
 input{
     flex: 1;
     border: none;
