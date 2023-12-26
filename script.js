@@ -43,8 +43,16 @@ function saveData(){
 function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
+
+function searchEvent(){
+    const searchBox = document.getElementById("search-box");
+    const searchContainer = document.getElementById("search-container");
+    if (listContainer.contains(searchBox))
+        searchContainer.appendChild(searchBox);
+}
 // function clearData(){
 //     listContainer.innerHTML = localStorage.removeItem("data");
 // }
 //clearData();
 showTask();
+searchEvent();
