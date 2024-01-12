@@ -22,6 +22,7 @@ function addTask(){
     }
     inputBox.value = "";
     dateBox.value = "";
+    timeBox.value = "";
     saveData();
 }
 
